@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary_color: #E2C044;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E6E6E6;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary_color);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    
+    padding: 1.5em;
+    background-color: #2E5266;
+    color: var(--primary_color);
+    border-radius: 0 0 15px 15px;
+}
+
+.orari {
+    border: solid 3px var(--primary_color);
+    padding: 0.4em 1em;
+    margin-top: -.5em;
+    border-radius: 70px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.orari:hover {
+    background-color: var(--primary_color);
+    color: #2E5266;
+    
+}
+
+
+
+.name {
+    font-size: 45px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.logo:hover {
+    color: #CEAE3C;
+}
+
+.classes, li{
+    font-size: 20px;
+    display: flex;
+    margin: 0 1em;
+}
+
+.container {
+    margin: 0 3em;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.list {
+    margin-top: 0.3em;
+}
+
+.klasa:hover {
+    font-weight: bold;
+}
+
+
+.hero {
+    margin: 4em 0 8em 0;
+    
+    
+}
+
+.container2 {
+    margin: 0 4.5em;
+    max-width: 100%;
+    display: flex;
+    place-content: space-between; 
+}
+
+
+.describe, h1 {
+    color: #46443C;
+    font-size: 45px;
+    font-weight: blod;
+    margin-bottom: 0em;
+}
+
+.describe, h2 {
+    color: var(--primary_color);
+    font-size: 30px;
+    font-weight: blod;
+    margin-top: 0;
+}
+
+.describe {
+    color: #46443C;
+    font-size: 18px;
+    max-width: 600px;
+    margin-right: 4em;
+}  
+
+.firstcontent {
+    background-color: #F3F3F3;
+    display: flex;
+    padding: 0;
+}
+
+.text {
+    padding: 2em;
+}
+
+.title {
+    margin: 0 1em 0.5em 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.description {
+    margin: 0 3em 0 0;
+}
+
+.content {
+    margin: 5em 0;
+}
+
+.container3 {
+    background-color: #2E5266;
+    margin: 0;
+    padding: 0.5em;
+    color: var(--primary_color);
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.ciontainer3, p {
+    margin: 0.3em;
+    
+}
+
+.art {
+    margin-top: 5.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.contact {
+    cursor: pointer;
+}
+
+#school {
+    border-radius: 0 1em 1em 0;
+    box-shadow: 8px 0px 8px rgba(0, 0, 0, 0.17);
+}
+
+.school-container {
+    max-height: auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .art {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .school-container {
+        text-align: center;
+    }
+
+    .firstcontent {
+        display: block;
+        
+    }
+
+    content {
+        text-align: center;
+    }
+
+    #school {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.17);
+        border-radius: 0 0 1em 1em;
+        width: 70%;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .title {
+        margin: 0;
+    }
+
+    .description {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 740px) {
+    .classes, li{
+        font-size: 15px;
+        display: flex;
+        margin: 0 .8em;
+    }
+
+    .list {
+        margin-top: .3em;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #school {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.17);
+        border-radius: 0 0 1em 1em;
+        width: 80%;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+
+    .name2 {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .container {
+        margin: 0 .7em;
+    }
+
+    .container2 {
+        margin: 2.5em;
+    }
+
+    .classes, li{
+        font-size: 15px;
+        display: flex;
+        margin: 0 .5em;
+    }
+
+    .describe {
+        margin-right: 0; 
+        
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .name2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .klasa {
+        display: none;
+    }
+}
